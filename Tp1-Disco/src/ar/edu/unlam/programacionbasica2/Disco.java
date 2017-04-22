@@ -14,7 +14,7 @@ public class Disco {
 	public Double getRadioExterior(){
 		return radioExterior;
 	}
-	public void getRadioExterior(Double radioExterior){
+	public void setRadioExterior(Double radioExterior){
 		this.radioExterior=radioExterior;
 	}
 
@@ -34,7 +34,7 @@ public class Disco {
 		Double areaExterior;
 		areaInterior = Math.PI * Math.pow(getRadioInterior(),2);
 		areaExterior = Math.PI * Math.pow(getRadioExterior(),2);
-		superficie = areaInterior - areaExterior;
+		superficie = areaExterior - areaInterior;
 		return superficie;
 		
 	}
